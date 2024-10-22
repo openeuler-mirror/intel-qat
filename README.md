@@ -1,37 +1,39 @@
-# intel-qat
+# Intel QAT Project
 
-#### 介绍
-Intel QuickAssist Technology(QAT) openEuler portal for maintaining the QAT projects
+## Introduction
 
-#### 软件架构
-软件架构说明
+Intel QuickAssist Technology (QAT) provides hardware acceleration for offloading security, authentication and compression services from the CPU, thus significantly increasing the performance and efficiency of standard platform solutions.
 
+## QAT projects
 
-#### 安装教程
+This project aims to provide a full QAT software stack in openEuler ecosystem.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Intel QuickAssist Technology(QAT) Library
 
-#### 使用说明
+- Upstream: https://github.com/intel/qatlib
+- Version: 24.02.0
+- openEuler: https://gitee.com/src-openeuler/intel-qatlib
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Intel QuickAssist Technology(QAT) QATzip Library
 
-#### 参与贡献
+- Upstream: https://github.com/intel/QATzip
+- Version: 1.2.0
+- openEuler: https://gitee.com/src-openeuler/intel-qatzip
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### Intel QuickAssist Technology (QAT) OpenSSL Engine
 
+- Upstream: https://github.com/intel/QAT_Engine
+- Version: 1.6.1
+- openEuler: https://gitee.com/src-openeuler/intel-qatengine
 
-#### 特技
+### Intel Integrated Performance Primitives(IPP) Cryptography multi-buffer library
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- Upstream: https://github.com/intel/ipp-crypto
+- Version: 2021.12.1
+- openEuler: https://gitee.com/src-openeuler/intel-ipp-crypto-mb
+
+### Intel Multi-Buffer Crypto for IPsec Library
+
+- Upstream: https://github.com/intel/intel-ipsec-mb
+- Version: 1.5.0
+- openEuler: https://gitee.com/src-openeuler/intel-ipsec-mb
